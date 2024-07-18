@@ -1,0 +1,123 @@
+/* DoctorsList.css */
+
+.doctors-list-container {
+  padding-top:30px ;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; /* Adjust the gap between cards */
+}
+
+.doctor-card {
+  flex: 1 0 calc(20% - 1rem); /* 20% width for 5 doctors per row */
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 1rem;
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 1rem; /* Adjust spacing between rows */
+}
+
+.doctor-card:hover {
+  transform: translateY(-5px);
+}
+
+.avatar {
+  width: 64px; /* Adjust the avatar size */
+  height: 64px; /* Adjust the avatar size */
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-body {
+  margin-left: 1rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-actions {
+  margin-top: 1rem;
+}
+
+.doctors-list-container .btn {
+  padding: 0.5rem 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.doctors-list-container .btn-primary:hover {
+  background-color: #45a049;
+}
+/* DoctorList.css */
+.doctors-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.doctor-card {
+  display: flex;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.doctor-card:hover {
+  transform: translateY(-5px);
+}
+
+.avatar {
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-body {
+  flex: 1;
+  margin-left: 1rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-actions {
+  margin-top: 1rem;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.search-input {
+  padding: 0.5rem;
+  width: 320px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}

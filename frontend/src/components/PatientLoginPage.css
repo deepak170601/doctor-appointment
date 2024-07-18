@@ -1,0 +1,45 @@
+/* PatientLoginPage.css */
+
+.login-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border-color: black;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container h2 {
+  font-size: 1.25rem; /* equivalent to 'larger' */
+  font-weight: bold; /* equivalent to 'bolder' */
+  margin-bottom: 1rem; /* adjust margin as needed */
+}
+
+.input {
+  margin-bottom: 12px; /* Increase the margin to add more space between inputs */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 12px; /* Space between inputs and button */
+  background-color: #17cb1d;
+  color: rgb(2, 0, 0);
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}

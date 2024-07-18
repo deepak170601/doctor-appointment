@@ -1,0 +1,56 @@
+/* Appointment.css */
+.doctor-slots-container {
+  margin: 20px;
+  text-align: center;
+}
+
+.doctor-slots-days select {
+  margin-bottom: 10px;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ddd;
+}
+
+.doctor-slots-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.doctor-slots-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.doctor-slots-table td.active {
+  background-color: #4CAF50; /* DaisyUI green */
+  color: white;
+}
+
+.doctor-slots-table td.selected {
+  background-color: #FFEB3B; /* DaisyUI yellow */
+  color: black;
+}
+
+.doctor-slots-table td.booked {
+  background-color: #F44336; /* DaisyUI red */
+  pointer-events: none;
+  color: white;
+}
+
+.doctor-slots-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #3B82F6; /* DaisyUI blue */
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.doctor-slots-button:hover {
+  background-color: #2563EB; /* Darker blue */
+}

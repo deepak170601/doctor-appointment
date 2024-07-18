@@ -1,0 +1,33 @@
+/* PatientNavbar.css */
+
+.navbar {
+  display: flex;
+  background-color: #393c3f; /* Adjust background color as needed */
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-right: 10px; /* Adjust spacing between navbar items */
+}
+
+.navbar ul li:last-child {
+  margin-right: 0; /* No margin for the last item */
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px; /* Adjust padding for each link */
+}
+
+.navbar ul li a:hover {
+  text-decoration: none;
+}
